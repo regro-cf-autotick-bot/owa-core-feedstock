@@ -1,5 +1,5 @@
 {% set name = "owa-core" %}
-{% set version = "0.4.3" %}
+{% set version = "0.5.3" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/owa_core-{{ version }}.tar.gz
-  sha256: 74955db2344765ee97eb728065313bd88e6705043c98758facdef4d713304d35
+  sha256: a6326e4a71d8ef344611c6d84444525976a2a6c07fb44c31fc25eac0b845e06c
 
 build:
   noarch: python
